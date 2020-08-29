@@ -52,6 +52,12 @@
 		animation-fill-mode: none;
 	}
 }
+.center {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+  }
 body {
 	background-color: #FFFFFF;
 	background-color: rgb(255,255,255);
@@ -3328,9 +3334,3 @@ footer .footer_bottom {
 nav.pagination {
 	display: block;
 }
-.center {
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-	width: 50%;
-  }
