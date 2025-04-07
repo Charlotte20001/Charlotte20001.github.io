@@ -1,6 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
+  <!-- 这里是 Feed 元数据 -->
   <title>StarlitAstrololi</title>
+  <link href="http://yourdomain.com" />
+  <updated>2025-04-07T22:08:25Z</updated>
+
+  <!-- 添加样式文件 -->
+  <link rel="stylesheet" type="text/css" href="/css/style.css" />
+  
+  <!-- 这里是 RSS 项目的内容 -->
+  <entry>
+    <title>Example Post</title>
+    <link href="http://yourdomain.com/example-post" />
+    <id>http://yourdomain.com/example-post</id>
+    <updated>2025-04-07T22:08:25Z</updated>
+    <summary>Example summary of the post.</summary>
+  </entry>
+</feed>
+
   
   
   <link href="https://sternenlicht.inori.uno/atom.xml" rel="self"/>
